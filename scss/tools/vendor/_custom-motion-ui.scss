@@ -1,0 +1,32 @@
+// Motion UI by ZURB
+// foundation.zurb.com/motion-ui
+// Licensed under MIT Open Source
+
+@import 'motion-ui/settings';
+
+@import 'motion-ui/util/animation';
+@import 'motion-ui/util/args';
+@import 'motion-ui/util/keyframe';
+@import 'motion-ui/util/selector';
+@import 'motion-ui/util/series';
+@import 'motion-ui/util/transition';
+@import 'motion-ui/util/unit';
+
+@import 'motion-ui/effects//fade';
+@import 'motion-ui/effects//hinge';
+@import 'motion-ui/effects//spin';
+@import 'motion-ui/effects//zoom';
+@import 'motion-ui/effects//shake';
+@import 'motion-ui/effects//slide';
+@import 'motion-ui/effects//wiggle';
+
+@import 'motion-ui/transitions//fade';
+@import 'motion-ui/transitions//hinge';
+@import 'motion-ui/transitions//zoom';
+@import 'motion-ui/transitions//slide';
+@import 'motion-ui/transitions//spin';
+
+@import 'motion-ui/classes';
+
+@include motion-ui-transitions;
+@include motion-ui-animations;

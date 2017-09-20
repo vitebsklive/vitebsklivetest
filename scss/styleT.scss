@@ -1,0 +1,67 @@
+@import "reset";
+@import "tools/index"; /* variables, mixens, funstions and exturnal tools of this theme */
+@import "base/index";
+@import "layout/index";
+@import "components/index";
+@import "state/index";
+
+$web-color:black;
+$top-color:#DFE3E4;
+$gray:#323333;
+$margin:100%;
+$wid:396;
+.row{
+max-width:$margin;
+margin-left:auto;
+margin-right:auto;
+}
+#top{
+background-color: $top-color;
+}
+#Info
+{
+margin-top:7%;
+margin-bottom:7%;
+font: 200% corbel;
+text-align:justify !important;
+background:#3c3c3c;
+border-radius: 20px;
+}
+p{
+color:#CACACA;
+text-align:justify !important;
+}
+#centor{
+padding:0px;
+}
+.gallery-L{
+position:relative;
+margin-top:-19%;
+height:auto;
+max-width:10%;
+float:left;
+}
+.gallery-R{
+position:relative;
+margin-top:-19%;
+height:auto;
+max-width:10%;
+float:right;
+}
+#i{
+height:auto;
+max-width:7%;
+border-radius: 50px;
+transition-duration: 1s;
+}
+#m{
+height:auto;
+max-width:20%;
+}
+#r{
+float: right;
+    padding-right:0;
+}
+#bottom{
+background:$gray;
+}

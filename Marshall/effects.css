@@ -1,0 +1,43 @@
+.Info:hover{
+//margin-left:20px;
+transition-duration: 1s;
+box-shadow: 0 0 20px rgba(0, 0, 0,1);
+}
+.Info{
+transition-duration: 1s;
+}
+#i{
+border-radius: 50px;
+transition-duration: 1s;
+}
+#i:hover{
+border-radius: 10px;
+opacity: 0.5;
+transition-duration: 1s;
+box-shadow: 0 0 20px rgba(0, 0, 0,1);
+}
+.img{
+transition-duration: 1s;
+}
+.img:hover{
+transition-duration: 1s;
+box-shadow: 0 0 20px rgba(0, 0, 0,1);
+}
+.gallery-L{
+transition-duration: 0.3s;
+}
+.gallery-L:hover{
+transition-duration: 0.5s;
+}
+.gallery-R{
+transition-duration: 0.3s;
+}
+.gallery-R:hover{
+transition-duration: 0.5s;
+}/*
+.PANEL_BOTTOM{
+transition-duration: 1s;
+}
+.PANEL_BOTTOM:hover{
+transition-duration: 1s;
+margin-top:0.5%;*/
